@@ -1,0 +1,83 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+ height: 50px;
+ background-color: #ff9a4b;
+}
+
+main {
+  width: 960px;
+  margin: 50px auto;
+  justify-content: center; 
+}
+
+.stepbox {
+  width: 600px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  padding: 10px;
+  position: relative;
+  background-color: #eee;
+}
+
+.step-img1 {
+  width: 100%;
+  height: 200px;
+  background-image: url(10_img/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step-img2 {
+  width: 100%;
+  height: 200px;
+  background-image: url(10_img/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+  display: block;
+}
+
+.step-img3 {
+  width: 100%;
+  height: 200px;
+  background-image: url(10_img/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step-num {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4b;
+  color: #fff;
+}
+
+.title {
+  margin: 15px 0 5px;
+}
+
+footer {
+  height: 50px;
+  background-color: #aaa;
+}
+
+@media screen and (max-width:900px) {
+  
+  .stem-img1 {
+    height: 150px;
+  }
+  
+  .stem-img2 {
+    height: 150px;
+  }
+  
+  .stem-img3 {
+    height: 150px;
+  }
+}
